@@ -32,3 +32,47 @@ body
         height:75%;
     }
 }
+
+@media (min-width:1024px)
+{
+    .Ans
+    {
+        max-width:600px;
+        width:25%;
+        height:25%;
+    }
+    .DIDI
+    {
+        max-width:600px;
+        width:50%;
+        height:50%;
+    }
+    .Chiwawa
+    {
+        max-width:580px;
+        width:75%;
+        height:75%;
+    }
+}
+
+@media (min-width:1920px)
+{
+    .Ans
+    {
+        max-width:700px;
+        width:25%;
+        height:25%;
+    }
+    .DIDI
+    {
+        max-width:800px;
+        width:50%;
+        height:50%;
+    }
+    .Chiwawa
+    {
+        max-width:680px;
+        width:75%;
+        height:75%;
+    }
+}
