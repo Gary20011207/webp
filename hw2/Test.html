@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description"content="我的網站"> 
+        <meta name="author"content="陳冠宇">
+        <meta name="keywords"content="吉娃娃,html">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+        <title>我的網頁</title>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ESGMDFEZKB"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-ESGMDFEZKB');
+        </script>
+
+    </head>
+    <body>
+        <h1><b>吉娃娃的家</b></h1>
+        <p>這是一隻可愛的吉娃娃</p>
+        <input type="text" placeholder="請隨意輸入文字"/>
+        <p>你喜歡這隻吉娃娃嗎？</p>
+        <button onclick="self.location.href='https://www.youtube.com/watch?v=Nl4lAO-HFJo&ab_channel=YabutaShoichi'";><img class="Ans" src= "https://www.moedict.tw/%E5%96%9C%E6%AD%A1.png" height="250 px";width="250 px";></button>
+        <button onclick="self.location.href='https://www.instagram.com/weichen0223/'";><img class="Ans" src= "https://www.moedict.tw/%E8%A8%8E%E5%8E%AD.png" height="250 px";width="250 px";></button>
+        <br/>
+        <br/>
+        <form action="https://cf.shopee.tw/file/02a8e6038e43bdd8ce907fdce5d39c35">
+            <input type="submit" value="點擊看吉娃娃！！" />
+        </form>
+        <br/>
+        <img class="DIDI" src="didi.jpg" width="400 px";>
+        <br/>
+
+        <h1>想知道這隻吉娃娃叫什麼名字嗎？</h1>
+        <input class='popuptest' type="button" value="想！！" style="color:red;">
+        <p class='show'></p>
+
+        <script>
+            var button = document.querySelector('.popuptest');
+            var showtxt = document.querySelector('.show');
+    
+            function popup2(e) {
+                if (confirm('真的想知道嗎？') == true) {
+                    showtxt.innerHTML = '它叫做「弟弟」~~ XD';
+                } else {
+                    showtxt.innerHTML = '那就算了!! >_<';
+                }
+    
+            };
+            button.addEventListener('click', popup2);
+        </script>
+
+        <br/>
+        <a href="Test2.html" style="color:blue;">下一頁可以看更多吉娃娃</a>
+    </body>
+</html>

@@ -1,0 +1,78 @@
+h1,p
+{
+    color:white;
+}
+
+body
+{
+    background-image:url('https://www.funhouse.com.tw/wp-content/uploads/2021/01/shutterstock_1135342001-S.jpg');
+    background-repeat:repeat;
+    background-color:white;
+    text-align:center;
+}
+
+@media (min-width:768px)
+{
+    .Ans
+    {
+        max-width:500px;
+        width:25%;
+        height:25%;
+    }
+    .DIDI
+    {
+        max-width:400px;
+        width:50%;
+        height:50%;
+    }
+    .Chiwawa
+    {
+        max-width:480px;
+        width:75%;
+        height:75%;
+    }
+}
+
+@media (min-width:1024px)
+{
+    .Ans
+    {
+        max-width:600px;
+        width:25%;
+        height:25%;
+    }
+    .DIDI
+    {
+        max-width:600px;
+        width:50%;
+        height:50%;
+    }
+    .Chiwawa
+    {
+        max-width:580px;
+        width:75%;
+        height:75%;
+    }
+}
+
+@media (min-width:1920px)
+{
+    .Ans
+    {
+        max-width:700px;
+        width:25%;
+        height:25%;
+    }
+    .DIDI
+    {
+        max-width:800px;
+        width:50%;
+        height:50%;
+    }
+    .Chiwawa
+    {
+        max-width:680px;
+        width:75%;
+        height:75%;
+    }
+}
