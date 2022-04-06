@@ -1,0 +1,29 @@
+<html>
+<head>
+  <title>My Document</title>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+  function change() {
+    //var header = document.getElementById("CGU");
+    //header.innerHTML = "CSIE@CGU";
+
+    $(document).ready(function(){
+    $("#CGU").html("CSIE@CGU");
+    });
+
+    //var para = document.getElementById("Good");
+    //para.innerHTML = "或ê或次.";
+
+    $(document).ready(function(){
+    $("#Good").html("或ê或次.");
+    });
+  }
+  </script>
+</head>
+<body>
+  <input type="button" value="Change this document." onclick="change()">
+  <h1 id="CGU">CGU</h1>
+  <p id="Good">次次</p>
+</body>
+</head>
+</html>
