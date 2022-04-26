@@ -1,0 +1,36 @@
+.HEADER 
+{
+    background-color: purple;
+    color: whitesmoke;
+    padding: 24px;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+    font-style: normal;
+    font-family: DFKai-sb; /*標楷體*/
+}
+
+.SHOW
+{
+    background-color: plum;
+    color: red;
+    padding: 24px;
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: center;
+    font-style: normal;
+    font-family: DFKai-sb; /*標楷體*/
+}
+
+#RESULT
+{
+    text-align: left;
+    font-weight: bolder;
+    font-size: 32px;
+    font-family: DFKai-sb; /*標楷體*/
+}
+
+.BACKGROUND
+{
+    background-color: plum;
+}
