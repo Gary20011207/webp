@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <ul id='myList'>
+        <li>Item 01</li>
+        <li>Item 02</li>
+        <li>Item 03</li>
+    </ul>
+
+    <script>
+        $(document).click(function (e)
+        {
+            if (e.target.tagName.toLowerCase() === 'li')
+            {
+                console.log(e.target.textContent);
+            }
+        });
+        var newList = document.createElement('li');
+        var textNode = document.createTextNode("hello cgu!");
+        newList.appendChild(textNode);
+        myList.appendChild(newList);
+    </script>
+
+</body>
+
+</html>
