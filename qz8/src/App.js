@@ -14,7 +14,7 @@ import HelloCGU from './cgu_hello';
 // }
 // const HelloCGU=()=>{
 //   var output=[];
-//   output.push(<h1 style = {styleArgument} >hello CGU!</h1>)
+//   output.push(<h1 style = {styleArgument} >Hello CGU!</h1>)
 //   return output;
 // }
 function App() {
