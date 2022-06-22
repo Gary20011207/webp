@@ -1,0 +1,48 @@
+body
+{
+    background:aliceblue;
+}
+
+.mainPage_function-wrapper
+{
+    display: flex;
+}
+
+.function_like-img
+{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+.function_comment-img
+{
+    height: 46px;
+    width: 46px;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+.mainPage_post-wrapper
+{
+    margin-left: 350px;
+    margin-top: 50px;
+    width: 650px;
+}
+
+.mainPage_img
+{
+    width: 800px;
+    height: 800px;
+    margin-left: 326px;
+    margin-top: 42px;
+    border: 15px double aliceblue;
+    border-width:5px;
+    border-radius: 20%;
+}
+
+.mainPage_user-wrapper
+{
+    margin-left: 20px;
+    margin-top: 5px;
+}

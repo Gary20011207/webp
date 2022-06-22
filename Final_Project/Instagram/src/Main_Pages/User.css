@@ -1,0 +1,49 @@
+.upload-btn
+{
+    font-size: 18px;
+}
+
+.photo
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    border: 10px ridge aliceblue;
+}
+
+.user_photo
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    border: 5px ridge aliceblue;
+}
+
+.user_name
+{
+    margin-top: 10px;
+}
+
+.user_name-input
+{
+    height: 25px;
+    width: 185px;
+    letter-spacing: 1px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 5px ridge aliceblue;
+    font-size: 18px;
+}
+
+.func_btn
+{
+    height: 25px;
+    width: 185px;
+}
+
+.func_btn_delete
+{
+    height: 25px;
+    width: 185px;
+    background-color: #FF6E6E;
+}

@@ -1,0 +1,14 @@
+.mypost_wrapper
+{
+    margin-top: 50px;
+}
+
+.mypost_img
+{
+    width: 600px;
+    height: 600px;
+    border: 1px solid rgb(221, 240, 239);
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-left: 50px;
+}

@@ -1,0 +1,37 @@
+.select
+{
+    width: 150px;
+    height: 40px;
+    font-size: 30px;
+}
+
+.email
+{
+    font-size: 30px;
+    width: 495px;
+    height: 80px;
+    border-radius: 15px;
+    border: 10px ridge aliceblue;
+    text-align: center;
+    color: rgb(59, 99, 99);
+
+}
+
+.password
+{
+    font-size: 30px;
+    width: 495px;
+    height: 80px;
+    border-radius: 15px;
+    border: 10px ridge aliceblue;
+    text-align: center;
+    color: rgb(59, 99, 99);
+}
+
+.send
+{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+}

@@ -1,0 +1,129 @@
+.LOGO
+{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.header_wrapper
+{
+    display: flex;
+    width: auto;
+    height: 80px;
+    overflow-y: scroll;
+    border-bottom: 1.5px solid rgb(227, 234, 233);
+}
+
+.header_title
+{
+    font-size: 45px;
+    margin-left: 80px;
+    color: black;
+}
+
+.header_search
+{
+    margin-left: 300px;
+    margin-top: 15px;
+}
+
+.header_search-input
+{
+    width: 450px;
+    height: 30px;
+    border-radius: 8px;
+    border:  10px ridge aliceblue;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Joan', serif;
+}
+
+.header_search-icon
+{
+    width: 42px;
+    height: 42px;
+    position:absolute;
+    right: 610px;
+    cursor: pointer;
+}
+
+.header_search-list
+{
+    width: 260px;
+    height: 150px;
+    overflow-y: scroll;
+    position: absolute;
+    right: 645px;
+    top:70px;
+    background-color: rgb(190, 205, 205);
+    border-radius: 8px;
+    border:  1px solid rgb(244, 245, 245);
+    font-size: 16px;
+    text-align: center;
+}
+
+.header_search-item
+{
+    display: block;
+    background-color: aliceblue;
+    width: 200px;
+    height: 30px;
+    overflow-y: scroll;
+    border: 1px solid rgb(90, 105, 107);
+    text-align: center;
+    margin-left: 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: rgb(48, 68, 62);
+    padding-top: 4px;
+}
+
+.header_add-icon
+{
+    position: absolute;
+    right: 265px;
+    top:23.5px;
+}
+
+.header_add-icon img
+{
+    width: 36px;
+    height: 36px;
+}
+
+.header_mainpage-icon
+{
+    position: absolute;
+    right: 200px;
+    top:20px;
+}
+
+.header_mainpage-icon img
+{
+    width: 40px;
+    height: 40px;
+}
+
+.header_user-icon
+{
+    position: absolute;
+    right: 135px;
+    top: 20px;
+}
+
+.header_user-icon img
+{
+    width: 40px;
+    height: 40px;
+}
+
+.header_signin
+{
+    position: absolute;
+    top:30px;
+    right: 118px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}

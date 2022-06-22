@@ -1,0 +1,41 @@
+.content
+{
+    margin-right: 50px;
+    border-radius: 5px;
+    border: 5px ridge aliceblue;
+}
+
+.newpost_img-wrapper
+{
+    width: 560px;
+    border-radius: 5px;
+    border: 5px ridge aliceblue;
+    display: flex;
+}
+
+.newpost_img
+{
+    height: 500px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.newpost_img-btn
+{
+    font-size: 15px;
+    border-radius: 5px;
+    border: 5px ridge aliceblue;
+    cursor: pointer;
+    margin-left: 355px;
+}
+
+.newpost_send
+{
+    font-family: 'Joan', serif;
+    width: 70px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 5px ridge aliceblue;
+    cursor: pointer;
+    margin-left: 490px;
+}
